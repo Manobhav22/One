@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/network-connection-background-gradient_23-2148879893.jpg?t=st=1737557078~exp=1737560678~hmac=66df66da6d98b0bed7f88bea48802f41c8e95aa607deb2cdf79dac8501e738e9&w=1060);
+    background-color: #3498db;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(1.0); 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.login-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1e1f21; /* Darker shade for the heading */
+}
+
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3498db; /* Light blue border */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.textbox input:focus {
+    border-color: #2980b9; /* Darker blue on focus */
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #e74c3c, #c0392b); /* Red gradient */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #c0392b, #e74c3c); /* Reverse gradient on hover */
+    transform: translateY(-2px);
+}
+
+.signup {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup a {
+    color: #3498db; /* Light blue for the signup link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.signup a:hover {
+    color: #2980b9; /* Darker blue on hover */
+    text-decoration: underline;
+}
